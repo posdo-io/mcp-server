@@ -1,0 +1,13 @@
+# Smithery configuration for the POS.DO MCP Server.
+# Reference: https://smithery.ai/docs/build/project-config/smithery-yaml
+#
+# This is a hosted/remote MCP server. The endpoint runs at https://pos.do/mcp
+# and uses the Streamable HTTP transport. No local stdio container is required.
+
+startCommand:
+  type: http
+  url: "https://pos.do/mcp"
+  configSchema:
+    type: object
+    properties: {}
+    description: "POS.DO MCP Server runs in anonymous tier by default. No API key required."

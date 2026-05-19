@@ -1,0 +1,77 @@
+{
+    "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "name": "io.pos.do/mcp-server",
+    "description": "Discover 356K+ restaurants in 20 countries: search, reviews, cultural context, time-based offers.",
+    "version": "0.1.0",
+    "title": "POS.DO MCP Server",
+    "websiteUrl": "https://pos.do",
+    "repository": {
+        "url": "https://github.com/posdo-io/mcp-server",
+        "source": "github"
+    },
+    "icons": [
+        {
+            "src": "https://raw.githubusercontent.com/posdo-io/mcp-server/main/icon.svg",
+            "mimeType": "image/svg+xml",
+            "sizes": [
+                "any"
+            ]
+        },
+        {
+            "src": "https://raw.githubusercontent.com/posdo-io/mcp-server/main/logo.png",
+            "mimeType": "image/png",
+            "sizes": [
+                "400x400"
+            ]
+        }
+    ],
+    "remotes": [
+        {
+            "type": "streamable-http",
+            "url": "https://pos.do/mcp"
+        }
+    ],
+    "_meta": {
+        "io.pos.do/coverage": {
+            "total_restaurants": 356780,
+            "total_reviews": 14193158,
+            "countries": [
+                "US",
+                "ES",
+                "IT",
+                "MX",
+                "FR",
+                "CO",
+                "DE",
+                "GB",
+                "DO",
+                "PR",
+                "AU",
+                "CA",
+                "PT",
+                "JP",
+                "BE",
+                "CH",
+                "HK",
+                "VE",
+                "NZ",
+                "PY"
+            ],
+            "languages": [
+                "es",
+                "en",
+                "it",
+                "fr",
+                "de",
+                "pt",
+                "ca"
+            ]
+        },
+        "io.pos.do/rate_limits": {
+            "requests_per_minute": 60,
+            "requests_per_day": 10000,
+            "reservations_per_email_per_day": 5,
+            "reservations_per_ip_per_minute": 10
+        }
+    }
+}
