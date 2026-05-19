@@ -1,6 +1,6 @@
 {
     "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-    "name": "io.pos.do/mcp-server",
+    "name": "io.github.posdo-io/mcp-server",
     "description": "Discover 356K+ restaurants in 20 countries: search, reviews, cultural context, time-based offers.",
     "version": "0.1.0",
     "title": "POS.DO MCP Server",
