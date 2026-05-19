@@ -1,7 +1,7 @@
 <div align="center">
   <img src="logo.png" alt="POS.DO MCP Server" width="200" height="200"/>
 
-  # POS.DO MCP Server
+  # PosDO MCP Server
 
   **Discovery of 356K+ restaurants across 20 countries via the Model Context Protocol.**
 
